@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Ship Manufacturing" version="4">
+  <OBJECT>
+    <ID name="Ship Manufacturing" mc="Standard.Project" uid="acfd76ba-8bd2-4e12-a672-d3adc7aa20ad"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Ship Manufacturing]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="ship manufacturing" mc="Standard.Package" uid="f4a839d4-34d3-4d3c-8100-a39f27d93fc8"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Ship Manufacturing" mc="Infrastructure.DiagramSet" uid="c597a1e8-e13c-44e1-86bf-943a7f668358"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,221 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Sys. Stockage &amp; logistique" version="4">
+  <OBJECT>
+    <ID name="Sys. Stockage &amp; logistique" mc="Standard.Class" uid="2513cf93-4b57-46b8-a6f2-2eac3f37ee74"/>
+    <PID name="Soi Manufacturing System" mc="Standard.Class" uid="16c572b3-3425-4c13-8198-699dddbd1cac"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Sys. Stockage & logistique]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedOperation">
+        <OBJECT>
+          <ID name="Approvisionner" mc="Standard.Operation" uid="8ac367d5-a0bf-41c3-9e23-dce169f48b96"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[Approvisionner]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedAttribute">
+        <OBJECT>
+          <ID name="Taille" mc="Standard.Attribute" uid="ea0dfd53-1ce2-435a-bb00-4f44536e08b8"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[Taille]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="float" mc="Standard.DataType" uid="00000004-0000-000b-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="37ab5765-3a14-468e-97a2-394e9f90dcb3"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[<Saisir le texte de la note ici>]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="InternalStructure">
+        <OBJECT>
+          <ID name="" mc="Standard.Port" uid="15cd33d4-daf3-4c03-bf30-71d403956e96"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.Port" uid="e3ab520d-d4e9-4924-8734-5d5c22dae7b0"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.Port" uid="fa3847ae-b89c-47fe-ac7a-9e210ebb9c77"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedInformationFlow">
+        <OBJECT>
+          <ID name="pièces mécaniques" mc="Standard.InformationFlow" uid="f8aa4cef-cf6d-402d-bcbc-99a93bf8019e"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[pièces mécaniques]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="fa3847ae-b89c-47fe-ac7a-9e210ebb9c77"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="c7b4c9bc-bb14-4763-b00d-1f8344a0eec7"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="conduits" mc="Standard.InformationFlow" uid="99bf6317-702f-487a-b51f-43214aa09056"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[conduits]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="e3ab520d-d4e9-4924-8734-5d5c22dae7b0"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="17a62b1d-b130-4d66-94f8-e332b37b69fe"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="plaques" mc="Standard.InformationFlow" uid="c6db53ee-60ef-43ad-80c9-2682c3498719"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[plaques]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="15cd33d4-daf3-4c03-bf30-71d403956e96"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="c95c9b0e-3fb9-4f43-a155-f48b4061270c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Entrepôt Pieces mécaniques" mc="Standard.Class" uid="47f7b081-19a4-4f7f-9caf-f23de81cff1c"/>
+        <COMPID name="Entrepôt plaques" mc="Standard.Class" uid="311bf43c-35c5-4762-b3f4-8de7dc0d35d8"/>
+        <COMPID name="Entrepôt conduits" mc="Standard.Class" uid="28bc429d-8d98-4f84-87a1-7b300ba51914"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Dependency" uid="ab07e973-da0d-438e-8e72-d541bbc7a7d5"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="Stocker matériel" mc="Standard.UseCase" uid="ab6b75ff-df60-4cce-826c-5c7c574cadda"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Dependency" uid="10864793-2dc7-4541-8e70-4df235fd04cc"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="approvisionner" mc="Standard.UseCase" uid="67a74f51-1782-4f88-a6cd-c09ad4436c18"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

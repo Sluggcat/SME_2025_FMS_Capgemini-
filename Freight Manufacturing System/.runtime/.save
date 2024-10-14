@@ -1,0 +1,8 @@
+#Mon Oct 14 10:24:26 CEST 2024
+org.modelio.app.module.propertytab.GModule\ [id\='SysMLArchitect',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_SysMLPropertyPage.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
+org.modelio.app.module.propertytab.GModule\ [id\='SysMLArchitect',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_SysMLPropertyPage.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.app.diagram.editor.OpenedDiagrams0='Diagramme de cas dutilisation {0}' {5608f17e-bb59-4d14-9742-567a181c5bdb} Standard.UseCaseDiagram
+org.modelio.app.module.propertytab.GModule\ [id\='SysMLArchitect',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_SysMLPropertyPage.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
+org.modelio.app.diagram.editor.OpenedDiagrams1='Diagramme interne de bloc Soi Manufacturing System' {321e15c2-4f3c-479e-9098-c8ff1c4a60fc} Standard.StaticDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams2='Diagramme de bloc Soi Manufacturing System' {93700d87-357c-4be8-a827-5352509e56da} Standard.StaticDiagram
+org.modelio.app.module.propertytab.GModule\ [id\='SysMLArchitect',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_SysMLPropertyPage.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom

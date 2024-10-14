@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ship manufacturing" version="4">
+  <OBJECT>
+    <ID name="ship manufacturing" mc="Standard.Package" uid="f4a839d4-34d3-4d3c-8100-a39f27d93fc8"/>
+    <PID name="Ship Manufacturing" mc="Standard.Project" uid="acfd76ba-8bd2-4e12-a672-d3adc7aa20ad"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ship manufacturing]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Soi Manufacturing System" mc="Standard.Class" uid="16c572b3-3425-4c13-8198-699dddbd1cac"/>
+        <COMPID name="Requirements" mc="Standard.Class" uid="a7359ee2-c9bd-4530-b953-f334f11fa6b5"/>
+        <COMPID name="manutentionnaires" mc="Standard.Actor" uid="2483c050-ad47-426c-97e9-a08530916254"/>
+        <COMPID name="ouvriers" mc="Standard.Actor" uid="3ab9d373-8d9f-486d-b71e-5d28b335c291"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de bloc Soi Manufacturing System" mc="Standard.StaticDiagram" uid="93700d87-357c-4be8-a827-5352509e56da"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

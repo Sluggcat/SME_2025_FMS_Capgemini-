@@ -1,0 +1,610 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Soi Manufacturing System" version="4">
+  <OBJECT>
+    <ID name="Soi Manufacturing System" mc="Standard.Class" uid="16c572b3-3425-4c13-8198-699dddbd1cac"/>
+    <PID name="ship manufacturing" mc="Standard.Package" uid="f4a839d4-34d3-4d3c-8100-a39f27d93fc8"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Soi Manufacturing System]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedEnd">
+        <OBJECT>
+          <ID name="Sys. stockage &amp; logistique" mc="Standard.AssociationEnd" uid="35456c1e-ad94-4d65-b2d1-be9135c9db99"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsComposition</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[Sys. stockage & logistique]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Sys. Stockage &amp; logistique" mc="Standard.Class" uid="2513cf93-4b57-46b8-a6f2-2eac3f37ee74"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="Standard.AssociationEnd" uid="1275ec6c-21c6-4c77-9adf-2d6c992e612d"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">AccesNone</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="Sys. stockage &amp; logistique" mc="Standard.AssociationEnd" uid="35456c1e-ad94-4d65-b2d1-be9135c9db99"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Association" uid="c6256a2f-1db5-47fc-983e-17052ed3edeb"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Standard.Association" uid="c6256a2f-1db5-47fc-983e-17052ed3edeb"/>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="sys d'assemblage" mc="Standard.AssociationEnd" uid="cf20638c-b2b6-423a-aa3d-52a90f789d89"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsComposition</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"></ATT>
+            <ATT name="MultiplicityMax"></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[sys d'assemblage]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Sys d'assemblage" mc="Standard.Class" uid="d079141c-7b2f-403b-8a9d-932e3aac6da0"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="Standard.AssociationEnd" uid="4baeb19d-b469-40b9-98c6-3a8ae9288919"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">AccesNone</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="sys d'assemblage" mc="Standard.AssociationEnd" uid="cf20638c-b2b6-423a-aa3d-52a90f789d89"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Association" uid="e7fd46bb-5a0f-4526-b35f-f9e9829c2150"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Standard.Association" uid="e7fd46bb-5a0f-4526-b35f-f9e9829c2150"/>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="sys de mise a l'eau" mc="Standard.AssociationEnd" uid="512e633b-5ae2-41f6-bfd4-d072a163c89c"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsComposition</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[sys de mise a l'eau]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Sys de mise a l'eau" mc="Standard.Class" uid="d3f71694-a40b-4ac6-a1ca-29d8e813de57"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="Standard.AssociationEnd" uid="60965313-e1bb-42d8-a094-d12e41317b7d"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">AccesNone</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="sys de mise a l'eau" mc="Standard.AssociationEnd" uid="512e633b-5ae2-41f6-bfd4-d072a163c89c"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Association" uid="4e74890b-415a-486c-9495-c4a677ae750d"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Standard.Association" uid="4e74890b-415a-486c-9495-c4a677ae750d"/>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="InternalStructure">
+        <OBJECT>
+          <ID name="" mc="Standard.Port" uid="d307b674-200e-40fb-959e-acd16128de1c"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">In</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="FlowPort" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-1a57-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.Port" uid="84c05802-e8c3-4fe0-bf91-88704613ab80"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">Out</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="FlowPort" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-1a57-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.Port" uid="0af0eb6d-5c4d-48f2-8166-6af15d85607c"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">In</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="FlowPort" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-1a57-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.Port" uid="bca0d150-17ac-442b-91cf-19d69db1b7c8"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">In</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="FlowPort" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-1a57-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.Port" uid="f1f5174f-4836-4629-8773-5ad20a979a78"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">In</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="FlowPort" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-1a57-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedInformationFlow">
+        <OBJECT>
+          <ID name="plaque" mc="Standard.InformationFlow" uid="d15f529b-aa8d-4fd6-b9eb-709d2147c44f"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[plaque]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="pièces mécaniques" mc="Standard.InformationFlow" uid="2ec1210b-b262-435b-b838-13698a229a55"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[pièces mécaniques]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="pièces mécaniques" mc="Standard.InformationFlow" uid="5ee07f5c-eb03-4a0f-b58c-a07034d077c2"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[pièces mécaniques]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="navire" mc="Standard.InformationFlow" uid="8c44d658-1eb9-4fa8-88ee-544ba509a0fb"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[navire]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ouvriers" mc="Standard.InformationFlow" uid="230b71c2-1ee8-4947-a26a-c6e27de64e1e"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[ouvriers]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ouvriers " mc="Standard.InformationFlow" uid="ed48f392-0e24-47da-8cb2-6e0bc14f1c72"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[ouvriers ]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ouvriers" mc="Standard.InformationFlow" uid="3a773042-0dca-405b-8b06-6b718968c84a"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[ouvriers]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="1cc1a8f5-eb5a-4c67-8f7b-0a7985ee9831"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[<Saisir le texte de la note ici>]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="plaques" mc="Standard.InformationFlow" uid="75c44d40-2972-4b46-8dd0-5aca254a2ca6"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[plaques]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="bca0d150-17ac-442b-91cf-19d69db1b7c8"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="15cd33d4-daf3-4c03-bf30-71d403956e96"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="conduits" mc="Standard.InformationFlow" uid="aacb1486-0701-47a2-b69d-7daa43c26b3f"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[conduits]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="0af0eb6d-5c4d-48f2-8166-6af15d85607c"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="e3ab520d-d4e9-4924-8734-5d5c22dae7b0"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="pièces mécaniques" mc="Standard.InformationFlow" uid="ed8272e3-101f-4350-b2c8-0351dc8f2176"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[pièces mécaniques]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="f1f5174f-4836-4629-8773-5ad20a979a78"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="fa3847ae-b89c-47fe-ac7a-9e210ebb9c77"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ouvriers" mc="Standard.InformationFlow" uid="ed77ec8e-08a5-47c0-9554-4e2ddb146690"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[ouvriers]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="navire" mc="Standard.InformationFlow" uid="9be38dfc-0f65-4492-9774-eabd24f65096"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[navire]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="0af56379-c238-4879-abe5-383128fe1a97"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="6ce8bcfd-e22e-4976-9c06-016beb8c11a2"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="navire" mc="Standard.InformationFlow" uid="b429d38d-1735-4a19-95f7-b3531946b67d"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[navire]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ouvriers" mc="Standard.InformationFlow" uid="d4212372-7894-460f-8ef7-320b2ad9ce84"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[ouvriers]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="d307b674-200e-40fb-959e-acd16128de1c"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="370cccb6-51e0-4515-b675-45638d05ce94"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="navire" mc="Standard.InformationFlow" uid="928efc76-c729-4701-840c-5695a09f9116"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[navire]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="5bee4109-473f-40c9-ad30-ee9f9c3aef60"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="84c05802-e8c3-4fe0-bf91-88704613ab80"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="palettes plaques" mc="Standard.InformationFlow" uid="c24eb918-03b3-44ec-9144-460b40128ec6"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[palettes plaques]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="f158c90f-c38e-4613-bfaf-ec92d28dad1d"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="891e1f81-7d20-4d60-874b-3ee910189bad"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="palette conduits" mc="Standard.InformationFlow" uid="6f32aade-fa75-497a-8f49-7e39ce22f005"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[palette conduits]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="5b840553-283e-47dd-be0e-fdc419e47442"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="b79e92b6-bbc0-473e-bf49-664ecbc949e0"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="palettes pièces mécaniques" mc="Standard.InformationFlow" uid="c6e3e94d-ce08-40b9-b389-7d8ef0d3acd0"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[palettes pièces mécaniques]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="0c673219-4a3b-4189-bcb7-c1aad428e7ac"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="43b90924-93bf-4a51-b7bf-aa4e00f92484"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ouvriers" mc="Standard.InformationFlow" uid="eda4d14e-a3a7-4b95-8340-054381312a21"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[ouvriers]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="31989ba9-edaa-48e3-ab83-8ae54c717d3d"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="" mc="Standard.Port" uid="40f41f21-0951-41e5-8e83-1918d5718f59"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Sys d'assemblage" mc="Standard.Class" uid="d079141c-7b2f-403b-8a9d-932e3aac6da0"/>
+        <COMPID name="Sys de mise a l'eau" mc="Standard.Class" uid="d3f71694-a40b-4ac6-a1ca-29d8e813de57"/>
+        <COMPID name="Vestiaires" mc="Standard.Class" uid="52477970-fe32-44d5-b6d5-ea8b3a81234f"/>
+        <COMPID name="Sys. Stockage &amp; logistique" mc="Standard.Class" uid="2513cf93-4b57-46b8-a6f2-2eac3f37ee74"/>
+        <COMPID name="stocker plaques" mc="Standard.UseCase" uid="0b0177db-c95f-4acb-90f0-0452bd68cc65"/>
+        <COMPID name="Stocker matériel" mc="Standard.UseCase" uid="ab6b75ff-df60-4cce-826c-5c7c574cadda"/>
+        <COMPID name="approvisionner" mc="Standard.UseCase" uid="67a74f51-1782-4f88-a6cd-c09ad4436c18"/>
+        <COMPID name="stocker pièces mécaniques" mc="Standard.UseCase" uid="64bb4e8f-2b02-4fdf-baf3-9b674723fa8c"/>
+        <COMPID name="stocker conduits" mc="Standard.UseCase" uid="f423f0bd-0f7d-4959-ae1d-d70dc7866377"/>
+        <COMPID name="Commissionner" mc="Standard.UseCase" uid="e44431ce-aa4f-4a86-b872-6a2aed66aced"/>
+        <COMPID name="assembler mégabloc" mc="Standard.UseCase" uid="65c99d49-b59d-4b26-a86d-04de50a59b7b"/>
+        <COMPID name="assembler modules" mc="Standard.UseCase" uid="a211db54-23de-4ffe-a83f-61802359aff8"/>
+        <COMPID name="Assembler" mc="Standard.UseCase" uid="c4b9afae-1764-4109-aa52-8f8ad78424e8"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas dutilisation {0}" mc="Standard.UseCaseDiagram" uid="5608f17e-bb59-4d14-9742-567a181c5bdb"/>
+        <COMPID name="Diagramme interne de bloc Soi Manufacturing System" mc="Standard.StaticDiagram" uid="321e15c2-4f3c-479e-9098-c8ff1c4a60fc"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
